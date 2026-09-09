@@ -1,2 +1,28 @@
 # Python_Coding_Test
 Coding Test
+
+## 목표
+    - 하루 최소 1문제
+    - Python 문법 익숙해지기!!
+
+## 진행 상황
+# Do it! 알고리즘 코딩 테스트 파이썬편
+    - 20260909
+        - 000
+            - input()은 무조건 문자열로 받음!
+        
+        # input()과 print()보다 sys.stdin.readline()과 sys.stdout.write() 사용하기
+
+        # [뭐를(넣을값) for 어디에(변수) in 얼마나(반복대상)]
+
+        # N, E = map(int, input().split()) : c++ -> int N,E; cin >> N >> E;
+        # 각각에 int()를 적용해라
+        # s, e, w = map(int, input().split()) : c++ -> int s, e, w; cin >> s >> e >> w;
+
+        # Python에서는 배열과 리스트를 구별하지 않는다
+        
+        - 001
+            - 리스트로 저장해야함
+            - 각 값을 정수형으로 변환해 저장해야함
+            - 한 자리씩 나누어 받으라는데 어떻게..?
+            - Python에서 형변환 : int 형 변환 -> int(data), str 형 변환 -> str(data)
